@@ -1,4 +1,4 @@
-name: 'Pronto'
+name: 'Helm Lint'
 description: 'Run pronto for the current PR'
 inputs:
   chart_directory:
