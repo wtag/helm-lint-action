@@ -12,10 +12,11 @@ This action lints a helm chart.
 
 **Required** The name of the chart which should be linted.
 
-
 ## Example usage
 
+```yaml
 uses: wtag/helm-lint-action@master
 with:
   chart_directory: deployment/chart
   chart_name: pg-backup
+```
