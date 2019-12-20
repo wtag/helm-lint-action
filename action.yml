@@ -1,0 +1,15 @@
+name: 'Pronto'
+description: 'Run pronto for the current PR'
+inputs:
+  chart_directory:
+    description: 'Path to the chart directory'
+    required: true
+  chart_name:
+    description: 'Name of the chart'
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.chart_directory }}
+    - ${{ inputs.chart_name }}
