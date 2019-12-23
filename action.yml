@@ -1,5 +1,5 @@
 name: 'Helm Lint'
-description: 'Run pronto for the current PR'
+description: 'Run helm linting for the current PR'
 inputs:
   chart_directory:
     description: 'Path to the chart directory'
