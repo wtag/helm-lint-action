@@ -1,6 +1,6 @@
 # Helm Lint Action
 
-This action lints a helm chart.
+This action lints a Helm chart using Helm 3.
 
 ## Inputs
 
@@ -15,8 +15,8 @@ This action lints a helm chart.
 ## Example usage
 
 ```yaml
-uses: wtag/helm-lint-action@master
-with:
-  chart_directory: deployment/chart
-  chart_name: pg-backup
+- uses: wtag/helm-lint-action@master
+  with:
+    chart_directory: deployment/chart
+    chart_name: pg-backup
 ```

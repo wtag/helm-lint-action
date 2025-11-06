@@ -1,4 +1,4 @@
-FROM dtzar/helm-kubectl:2.16.1
+FROM dtzar/helm-kubectl:3.19.0
 
 COPY entrypoint.sh /entrypoint.sh
 
